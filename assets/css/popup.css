@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.popup-body {
+  width: 350px;
+  margin: 2rem auto;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+
+.png-bg {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.poke-id {
+  background: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.2rem 0.8rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+.close{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.close:hover{
+  cursor: pointer;
+}
+
+.png-bg img {
+  height: 140px;
+  margin: 1rem 0;
+}
+
+.popup-poke-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.types {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.type {
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.type.grass { background-color: #78C850; }
+.type.poison { background-color: #A040A0; }
+.type.fire { background-color: #F08030; }
+.type.water { background-color: #6890F0; }
+.type.electric { background-color: #F8D030; }
+.type.bug { background-color: #A8B820; }
+
+.type-grass { background: linear-gradient(135deg, #78C850, #4E8234); }
+.type-fire { background: linear-gradient(135deg, #F08030, #9C531F); }
+.type-water { background: linear-gradient(135deg, #6890F0, #445E9C); }
+.type-electric { background: linear-gradient(135deg, #F8D030, #A1871F); }
+.type-bug { background: linear-gradient(135deg, #A8B820, #6D7815); }
+
+.popup-main {
+  background: white;
+  padding: 1.5rem;
+}
+
+.popup-main h2 {
+  margin-bottom: 1rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  gap: 0.5rem;
+}
+
+.stat span {
+  width: 70px;
+  font-weight: bold;
+}
+
+.bar {
+  flex: 1;
+  height: 10px;
+  background: #eee;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #4CAF50;
+  border-radius: 0.5rem;
+}

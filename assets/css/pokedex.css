@@ -142,8 +142,15 @@
     font-size: .625rem;
     color: #fff;
     background-color: #6c79db;
-    border: none;
+    border: 1px solid black;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pagination button:hover{
+    transition: 0.5s;
+    opacity: 0.8;
+    font-size: 11px;
 }
 
 @media screen and (min-width: 380px) {
