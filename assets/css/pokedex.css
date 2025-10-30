@@ -153,6 +153,25 @@
     font-size: 11px;
 }
 
+.info-btn {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.info-btn:hover {
+    background-color: #ddd;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
@@ -170,3 +189,4 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
